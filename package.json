@@ -1,21 +1,20 @@
 {
   "name": "ember-cli-webpack-imports",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "An addon to add Webpack dependencies to your Ember app.",
   "keywords": [
     "ember-addon"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Charles Demers <charles.demers6@gmail.com>",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/charlesdemers/ember-cli-webpack-imports",
   "scripts": {
     "build": "ember build",
-    "start": "ember serve",
-    "test": "ember try:each"
+    "start": "ember serve"
   },
   "dependencies": {
     "ember-cli-babel": "^6.6.0",
@@ -24,19 +23,15 @@
   "devDependencies": {
     "babel-eslint": "8.0.3",
     "broccoli-asset-rev": "^2.4.5",
-    "ember-ajax": "^3.0.0",
     "ember-cli": "~2.17.1",
     "ember-cli-dependency-checker": "^2.0.0",
     "ember-cli-eslint": "^4.2.1",
     "ember-cli-htmlbars": "^2.0.1",
     "ember-cli-htmlbars-inline-precompile": "^1.0.0",
     "ember-cli-inject-live-reload": "^1.4.1",
-    "ember-cli-qunit": "^4.1.1",
     "ember-cli-shims": "^1.2.0",
-    "ember-cli-sri": "^2.1.0",
     "ember-cli-uglify": "^2.0.0",
     "ember-disable-prototype-extensions": "^1.1.2",
-    "ember-export-application-global": "^2.0.0",
     "ember-load-initializers": "^1.0.0",
     "ember-resolver": "^4.0.0",
     "ember-source": "~2.17.0",
